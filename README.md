@@ -9,11 +9,9 @@ This script only works for password-less keys (DO NOT SET A PASSWORD) *This is d
 ## How to run
 1. Download the script in your root build directory and run it
 
-`wget https://raw.githubusercontent.com/306bobby-android/crDroid-build-signed-script/main/create-signed-env.sh`
-
-`chmod +x create-signed-env.sh`
-
-`./create-signed-env.sh`
+```shell
+wget https://raw.githubusercontent.com/306bobby-android/crDroid-build-signed-script/main/create-signed-env.sh && chmod +x create-signed-env.sh && ./create-signed-env.sh
+```
 
 2. Enter info for certificate subject line and confirm
 
